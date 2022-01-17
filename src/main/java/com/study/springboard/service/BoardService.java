@@ -2,10 +2,12 @@ package com.study.springboard.service;
 
 import com.study.springboard.entity.springboard;
 import com.study.springboard.repository.BoardRepository;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 
 @Service
 public class BoardService {
